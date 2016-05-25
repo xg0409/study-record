@@ -7,8 +7,8 @@
         执行时候this指针的指向会不断发生变化，很难控制。
 
 原因二：javascript里的全局作用域对this指针有很大的影响，由上面java的例子我们看到，this指针只有在使用
-    <br/>new操作符后才会生效，但是javascript里的this在没有进行new操作也会生效，这时候this往往会指向全局对象window。
+        new操作符后才会生效，但是javascript里的this在没有进行new操作也会生效，这时候this往往会指向全局对象window。
 
 原因三：javascript里call和apply操作符可以随意改变this指向，这看起来很灵活，但是这种不合常理的做法破
-        <br/>坏了我们理解this指针的本意，同时也让写代码时候很难理解this的真正指向
+        坏了我们理解this指针的本意，同时也让写代码时候很难理解this的真正指向
 </pre>
