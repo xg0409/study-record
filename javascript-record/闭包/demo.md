@@ -1,4 +1,4 @@
-<h1>DEMO</h1>
+<h1>闭包 DEMO</h1>
 <h3>结果缓存</h3>
 <pre>
 var CachedSearchBox = (function() {
