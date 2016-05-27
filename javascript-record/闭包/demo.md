@@ -24,5 +24,4 @@ var CachedSearchBox = (function() {
     }
   };
 })();
-
 </pre>
