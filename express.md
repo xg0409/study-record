@@ -49,15 +49,13 @@ express -e  microblog
 
    2.在 app.set('view engine', 'ejs'); 下面添加 app.use(partials());
 
- 
-
-   在需要引用模板的地方调用 layout:'模版名称' 示例
-
- 
-
+在需要引用模板的地方调用 layout:'模版名称' 示例
+   
+<pre>
 app.get('/reg', function (req, res) {
   res.render('reg', {
     title: '用户注册',
     layout: 'template'
   });    
 });
+</pre>
